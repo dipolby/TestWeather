@@ -28,7 +28,9 @@ public class LoadingDialog extends DialogFragment {
     public static LoadingView view(@NonNull FragmentManager fm) {
         return new LoadingView() {
 
+
             private final AtomicBoolean mWaitForHide = new AtomicBoolean();
+
 
             @Override
             public void showLoadingIndicator() {
@@ -75,7 +77,7 @@ public class LoadingDialog extends DialogFragment {
 
         private int mAttempts = 10;
 
-        public HideTask(@NonNull FragmentManager fm) {
+        private HideTask(@NonNull FragmentManager fm) {
             mFmRef = new WeakReference<>(fm);
         }
 
