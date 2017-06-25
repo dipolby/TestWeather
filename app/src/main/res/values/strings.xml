@@ -2,6 +2,8 @@
     <string name="app_name">Simple Weather</string>
     <string name="loading">Loading…</string>
 
+    <string name="simple">simple</string>
+
     <string name="temperature">Temperature</string>
     <string name="pressure">Pressure</string>
     <string name="humidity">Humidity</string>
